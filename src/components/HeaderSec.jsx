@@ -104,8 +104,8 @@ const HeaderSec = () => {
             </div>
           </nav>
         </div>
-        <div className="flex-grow flex justify-center items-center flex-col max-w-[1140px] px-3 py-4 mx-auto">
-          <h1 className="max-w-[505px] text-center text-white lg:text-7xl md:text-6xl sm:text-5xl text-4xl font-normal ff_anton uppercase md:leading-[86.40px] mb-4">
+        <div className="flex-grow flex justify-center items-center flex-col max-w-[1140px] px-3 mx-auto">
+          <h1 className="max-w-[505px] text-center text-white lg:text-7xl md:text-6xl sm:text-5xl text-4xl font-normal ff_anton uppercase !leading-[120%] mb-4">
             Exclusive Games. Pasión por ganar
           </h1>
           <p className="max-w-[727px] opacity-80 text-center text-white sm:text-base text-sm font-medium ff_inter leading-relaxed mb-10">

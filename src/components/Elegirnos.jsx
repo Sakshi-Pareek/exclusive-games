@@ -5,7 +5,7 @@ import CasinoNight from "../assets/images/webp/casino-night.webp";
 const Elegirnos = () => {
   return (
     <div className="md:bg-portexture xl:bg-full md:bg-cover max-md:bg-white md:bg-no-repeat">
-      <div className="max-w-[1140px] px-3 mx-auto lg:py-64 md:py-40 sm:py-16 py-12">
+      <div className="max-w-[1140px] px-3 mx-auto lg:py-64 md:py-48 sm:py-16 py-12">
         <div className="flex flex-wrap-reverse flex-row items-center md:justify-between justify-center md:gap-0 gap-8">
           <div className="md:w-1/2 sm:w-10/12 w-full xl:pr-0 md:pr-10">
             <h2 className="text-slate-950 lg:text-5xl sm:text-4xl text-3xl font-normal ff_anton md:leading-[57.60px] lg:mb-4 mb-3">

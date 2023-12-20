@@ -30,11 +30,11 @@ const Jackpot = () => {
       <div className="bg-jackpottexture bg-full bg-no-repeat bg-center">
         <div className="max-w-[1140px] px-3 mx-auto xl:py-20 md:pt-0 md:pb-16 py-10">
           <div className="flex flex-wrap flex-row items-center justify-center md:gap-0 gap-8">
-            <div className="md:w-6/12 sm:w-10/12 w-10/12 lg:mx-0 mx-auto">
+            <div className="md:w-6/12 sm:w-10/12 w-10/12 lg:mx-0 mx-auto xl:pr-10 md:pr-7">
               <img
                 src={JackpotImg}
                 alt="Jackpot"
-                className="max-w-[558px] w-full rounded-2xl xl:pr-10 md:pr-7"
+                className="max-w-[558px] w-full rounded-2xl"
               />
             </div>
             <div className="md:w-6/12 sm:w-10/12 w-full">
@@ -82,13 +82,13 @@ const Jackpot = () => {
               </p>
             </div>
           </div>
-          <div className="max-w-[1043px] mx-auto relative rounded-2xl border border-white md:py-24 sm:py-20 py-16 overflow-hidden xl:my-36 lg:my-24 sm:my-16 my-14">
+          <div className="max-w-[1043px] mx-auto relative rounded-2xl border border-white border-opacity-50 md:py-24 sm:py-20 py-16 overflow-hidden xl:my-36 lg:my-24 sm:my-16 my-14">
             <img
               src={PlataformaBgLayer}
               alt="PlataformaTopLeftImg"
-              className="absolute left-0 top-0 max-w-[1043px] h-full w-full z-[1] opacity-80 mix-blend-lighten"
+              className="absolute left-0 top-0 max-w-[1043px] h-full w-full z-[1] opacity-95 mix-blend-lighten"
             />
-            <p className="max-w-[520px] text-center text-white lg:text-5xl sm:text-[40px] text-3xl font-normal ff_anton m-auto sm:leading-[57.60px] relativez-[2] sm:px-0 px-4">
+            <p className="max-w-[520px] text-center text-white lg:text-5xl sm:text-[40px] text-3xl font-normal ff_anton m-auto !leading-[57.60px] relative z-[2] sm:px-0 px-4">
               lanza tu propia plataforma en sólo 2 semanas
             </p>
           </div>
@@ -96,7 +96,7 @@ const Jackpot = () => {
             <h3 className="text-center text-white lg:text-5xl sm:text-[40px] text-4xl font-normal ff_anton sm:leading-[57.60px] md:mb-14 mb-8">
               Juegos en vivo
             </h3>
-            <div className="flex flex-row flex-wrap mt-1 lg:gap-0 md:gap-14 sm:gap-8 gap-4 lg:justify-between justify-center cursor-pointer">
+            <div className="flex flex-row flex-wrap mt-1 lg:gap-0 md:gap-14 sm:gap-8 gap-4 lg:justify-between justify-center">
               {items.map((x, index) => (
                 <div className="lg:w-4/12 sm:w-5/12 w-11/12 lg:px-3"key={index}>
                   <div
